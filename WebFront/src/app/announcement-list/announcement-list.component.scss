@@ -1,0 +1,15 @@
+.card {  
+  height: 50%;
+  width: 100%;
+  margin-left: 1%;
+  margin-top: 1%;
+  background-color: rgb(245, 245, 245);
+  overflow: auto;
+  position: flex;
+  display: inline-flex;
+  overflow-x: auto;
+}
+
+.title {
+    text-align: center;
+}
