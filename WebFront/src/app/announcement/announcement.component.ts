@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Announcement } from '../announcement';
 
 @Component({
@@ -9,10 +10,14 @@ import { Announcement } from '../announcement';
 export class AnnouncementComponent implements OnInit {
 
    @Input() public annonce?: Announcement;
-
-  constructor() { }
+   
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+  }
+
+  goToDetailPage() {
+    this.router.navigate(["annonces/",this.annonce?.id,"detail"]);
   }
 
 }

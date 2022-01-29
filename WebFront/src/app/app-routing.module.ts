@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
 import { AnnouncementListComponent } from './announcement-list/announcement-list.component';
-import { AnnouncementComponent } from './announcement/announcement.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  { path: 'home', component:  AnnouncementListComponent }
+  {path: '', redirectTo: 'annonces', pathMatch: 'full'},
+  { path: 'annonces', component:  AnnouncementListComponent },
+  { path: 'annonces/:annonceId/detail', component:  AnnouncementDetailsComponent }
 ];
 
 @NgModule({

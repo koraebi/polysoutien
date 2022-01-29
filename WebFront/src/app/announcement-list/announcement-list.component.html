@@ -1,8 +1,6 @@
-<div class="container">
-    <mat-card class="card">
-        <mat-card-title class="title">Liste des annonces</mat-card-title>
-        <div *ngFor="let annonce of annonces">
-            <app-announcement [annonce]="annonce"></app-announcement>
-        </div>
-    </mat-card>
-</div>
+<mat-card class="container">
+    <mat-card-title class="title">Liste des annonces</mat-card-title>
+    <mat-card-content class="cards" *ngFor="let annonce of annonces">
+        <app-announcement [annonce]="annonce"></app-announcement>
+    </mat-card-content>
+</mat-card>

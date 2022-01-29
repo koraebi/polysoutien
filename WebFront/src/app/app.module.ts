@@ -11,6 +11,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {MatIconModule} from '@angular/material/icon';
     AppComponent,
     AnnouncementComponent,
     AnnouncementListComponent,
+    AnnouncementDetailsComponent,
   ],
   imports: [
     BrowserModule,

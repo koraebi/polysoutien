@@ -15,6 +15,7 @@ export class AnnouncementService {
         filiere: "IHM-SI5",
         image: "../assets/mehdi.jpg"
       },
+      id: 1,
       matiere: "C",
       description: "Bonjour je suis étudiant en SI5 en IHM, je suis à l'aise en C et"+
        "je pourrais vous aidez dans cette matière surout les SI3. Vous pouvez vous inscrire à l'annonce.",
@@ -29,6 +30,7 @@ export class AnnouncementService {
         filiere: "AL-SI5",
         image: "../assets/image.jpg"
       },
+      id: 2,
       matiere: "Java",
       description: "Bonjour je suis étudiant en SI5 en AL, "+
        "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
@@ -40,4 +42,12 @@ export class AnnouncementService {
   public annonces$: BehaviorSubject<Announcement[]> = new BehaviorSubject(this.annonces);
 
   constructor() { }
+
+  getAnnouncement(annonceId: Number) {
+    let annonce;
+    annonce = this.annonces.find((annonce) => annonce.id === annonceId);
+    return annonce;
+  }
+
+
 }
