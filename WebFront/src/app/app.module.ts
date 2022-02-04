@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,7 +14,13 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+
 import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
+import { InscriptionComponent } from './compte/inscription/inscription.component';
+import { ConnexionComponent } from './compte/connexion/connexion.component';
+import { PageAccueilComponent } from './page-accueil/page-accueil.component';
+import { MapComponent } from './map/map.component';
 
 
 @NgModule({
@@ -20,6 +29,10 @@ import { AnnouncementDetailsComponent } from './announcement-details/announcemen
     AnnouncementComponent,
     AnnouncementListComponent,
     AnnouncementDetailsComponent,
+    InscriptionComponent,
+    ConnexionComponent,
+    PageAccueilComponent,
+    MapComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +43,11 @@ import { AnnouncementDetailsComponent } from './announcement-details/announcemen
     MatToolbarModule,
     MatIconModule,
     BrowserAnimationsModule,
+    MatFormFieldModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
