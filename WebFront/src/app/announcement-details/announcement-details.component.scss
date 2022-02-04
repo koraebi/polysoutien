@@ -1,7 +1,26 @@
-.card {
-    position :relative;
-    display:flex;
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.leftCard {
     top : 5vh;
     left: 5vw;
-    width: 55vw;
+    width: auto;
+}
+
+.rightCard {
+    width: 300px;
+    margin-left: 100px;
+    top: 5vh;
+}
+
+.image {
+    height: 200px;
+}
+
+.actionButton{
+    margin-top: 30%;
 }

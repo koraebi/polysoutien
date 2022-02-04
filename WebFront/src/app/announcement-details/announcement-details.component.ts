@@ -24,4 +24,7 @@ export class AnnouncementDetailsComponent implements OnInit {
     this.router.navigate(["map/",this.annonce?.id,"detail"]);
   }
 
+  goBack() {
+    this.router.navigate(["annonces"]);
+  }
 }
