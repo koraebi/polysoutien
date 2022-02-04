@@ -21,6 +21,7 @@ import { InscriptionComponent } from './compte/inscription/inscription.component
 import { ConnexionComponent } from './compte/connexion/connexion.component';
 import { PageAccueilComponent } from './page-accueil/page-accueil.component';
 import { MapComponent } from './map/map.component';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { MapComponent } from './map/map.component';
     FormsModule,
     ReactiveFormsModule,
     MatInputModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

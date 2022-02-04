@@ -1,6 +1,13 @@
 <mat-toolbar>
     <span>PolySoutien</span>
     <span class="spacer"></span>
-    <button mat-button>Connexion</button>
+    <button mat-button [matMenuTriggerFor]="menu">
+        <mat-icon class="account_icon">account_circle</mat-icon>
+        John Doe
+    </button>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item><mat-icon>calendar_today</mat-icon>Planning</button>
+        <button mat-menu-item><mat-icon>settings</mat-icon>Paramètres</button>
+    </mat-menu>
 </mat-toolbar>
 <router-outlet></router-outlet>
