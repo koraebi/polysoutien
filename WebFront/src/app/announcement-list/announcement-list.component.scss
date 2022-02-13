@@ -1,12 +1,15 @@
 .container {  
   height: 70vh;
   width: 100%;
+  //position: flex;
+  //display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1%;
+  display: flexbox;
+  justify-content: center;
+  margin-top: 2%;
   background-color: rgb(245, 245, 245);
-  overflow: auto;
-
+  overflow-y: auto;
 }
 
 .title {
@@ -19,6 +22,7 @@
   justify-content: space-between;
   width : 25vw;
   padding : 1vw;
+  margin-left: 5%;
   overflow-y: hidden;
 }
 

@@ -30,5 +30,400 @@ export const ANNOUCEMENTS: Announcement[] = [
         salle: "O+310",
         date: "02/02/2022 à 14h.",
         duree: 2,
+      },
+      {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }
+      , {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      },
+      {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
+      }, {
+        user: {
+          nom: "Filipe",
+          prenom: "Gomes",
+          filiere: "AL-SI5",
+          image: "../assets/filipe.PNG"
+        },
+        id: 2,
+        matiere: "Java",
+        description: "Bonjour je suis étudiant en SI5 en AL, "+
+         "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
+        salle: "O+310",
+        date: "02/02/2022 à 14h.",
+        duree: 2,
       }
 ]
