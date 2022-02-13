@@ -1,6 +1,18 @@
-<mat-card class="container">
-    <mat-card-title class="title">Liste des annonces</mat-card-title>
-    <mat-card-content class="cards" *ngFor="let annonce of annonces">
-        <app-announcement [annonce]="annonce"></app-announcement>
-    </mat-card-content>
-</mat-card>
+<mat-tab-group dynamicHeight>
+    <mat-tab label="Proposition de cours">
+        <mat-card class="container">
+            <mat-card-title class="title">Liste des annonces d'aide</mat-card-title>
+            <mat-card-content class="cards" *ngFor="let annonce of annonces">
+                <app-announcement [annonce]="annonce"></app-announcement>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
+    <mat-tab label="Demande de cours">
+        <mat-card class="container">
+            <mat-card-title class="title">Liste des demandes d'aide</mat-card-title>
+            <mat-card-content class="cards" *ngFor="let help of helps">
+                <app-help-overview [help]="help"></app-help-overview>
+            </mat-card-content>
+        </mat-card>
+    </mat-tab>
+</mat-tab-group>

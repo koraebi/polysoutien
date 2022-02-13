@@ -15,13 +15,16 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
 import { InscriptionComponent } from './compte/inscription/inscription.component';
 import { ConnexionComponent } from './compte/connexion/connexion.component';
 import { PageAccueilComponent } from './page-accueil/page-accueil.component';
 import { MapComponent } from './map/map.component';
-import {MatMenuModule} from '@angular/material/menu';
+import { HelpOverviewComponent } from './helpAnnounce/help-overview/help-overview.component';
+import { HelpDetailsComponent } from './helpAnnounce/help-details/help-details.component';
 
 
 @NgModule({
@@ -34,6 +37,8 @@ import {MatMenuModule} from '@angular/material/menu';
     ConnexionComponent,
     PageAccueilComponent,
     MapComponent,
+    HelpOverviewComponent,
+    HelpDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -49,7 +54,8 @@ import {MatMenuModule} from '@angular/material/menu';
     ReactiveFormsModule,
     MatInputModule,
     MatAutocompleteModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

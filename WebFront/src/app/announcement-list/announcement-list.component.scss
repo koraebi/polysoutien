@@ -1,5 +1,5 @@
 .container {  
-  height: 50%;
+  height: 70vh;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -16,4 +16,9 @@
 .cards {
   position: flex;
   display: inline-table;
+  justify-content: space-between;
+  width : 25vw;
+  padding : 1vw;
+  overflow-y: hidden;
 }
+
