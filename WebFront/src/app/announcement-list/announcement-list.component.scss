@@ -3,8 +3,6 @@
   width: 100vw;
   min-width: 100%;
   min-height: 80vh;
-  //margin-left: 10px;
-  //margin-right: 
   display: inline-flexbox;
   justify-content: center;
   margin-top: 2%;
@@ -43,18 +41,23 @@
   overflow-y: hidden;
 }
 
-.container-mobile {  
-  height: 100vh;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: -moz-inline-box;
-  background-color: rgb(245, 245, 245);
-  overflow-y: scroll;
-}
+@media only screen and (max-width: 400px) {
+  .container {  
+    height: 100vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: -moz-inline-box;
+    background-color: rgb(245, 245, 245);
+    overflow-y: scroll;
+  }
+  
+  .cards {
+    width: 100%;
+    overflow: hidden; 
+  }
 
-
-.cards-mobile {
-  width: 100%;
-  overflow: hidden; 
+  .title {
+    display: none;
+  }
 }

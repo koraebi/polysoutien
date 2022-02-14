@@ -25,14 +25,28 @@
     margin-top: 30%;
 }
 
-.leftCard-mobile {
-    margin-top: 2%;
-    margin-left: 7%;
-    width: 335px;
-}
 
-.rightCard-mobile {
-    margin-top: 2%;
-    margin-left: 7%;
-    width: 335px;
+@media only screen and (max-width: 400px) {
+    .container {
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .leftCard {
+        margin-left: -8%;
+        min-width: 330px;
+        max-width: 380px;
+    }
+    
+    .rightCard {
+        margin-top: 5%;
+        margin-left: -10px;
+        min-width: 380px;
+        max-width: 380px;
+    }
+
+    .actionButton{
+        margin-top: 1%;
+    }
 }

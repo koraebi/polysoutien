@@ -10,8 +10,7 @@ import { Announcement } from '../announcement';
 export class AnnouncementComponent implements OnInit {
 
    @Input() public annonce?: Announcement;
-   @Input() style: string = 'web';
-   
+      
   constructor(private router: Router) { }
 
   ngOnInit(): void {

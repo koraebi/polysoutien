@@ -8,9 +8,7 @@ import { Help } from '../../help-definition/help';
   styleUrls: ['./help-overview.component.scss']
 })
 export class HelpOverviewComponent implements OnInit {
-  @Input() public help?: Help;
-  @Input() style: string = 'web';
-   
+  @Input() public help?: Help;   
   constructor(private router: Router) { }
 
   ngOnInit(): void {

@@ -1,5 +1,4 @@
-<div *ngIf="!isMobile">
-  <div class="container">
+<div class="container">
     <mat-card class="leftCard" *ngIf="annonce">
       <mat-card-title-group>
         <mat-card-title>Description de l'annonce</mat-card-title>
@@ -14,46 +13,7 @@
           <button mat-button (click)="goToMapPage()">Emplacement du cours</button>
       </mat-card-actions>
   </mat-card>
-  
   <mat-card class="rightCard" *ngIf="annonce">
-    <mat-card-header>
-      <mat-card-title>{{annonce.user.prenom}} {{annonce.user.nom}}</mat-card-title>
-    </mat-card-header>
-    <img class="image" mat-card-image [src]="annonce.user.image">
-    <mat-card-content>
-      <p>
-        <mat-icon fontSet="far" fontIcon="fa-clock"></mat-icon> {{annonce.duree}} heure.
-      </p>
-      <p>
-        <mat-icon fontSet="far" fontIcon="fa-calendar-alt"></mat-icon> {{annonce.date}}
-      </p>
-      <p>
-        <mat-icon fontSet="fas" fontIcon="fa-school"></mat-icon> {{annonce.salle}}.
-      </p>
-    </mat-card-content>
-    <mat-card-actions>
-      <button mat-button>Liker</button>
-      <button mat-button>Contacter</button>
-    </mat-card-actions>
-  </mat-card>
-  </div>
-</div>
-<div *ngIf="isMobile">
-    <mat-card class="leftCard-mobile" *ngIf="annonce">
-      <mat-card-title-group>
-        <mat-card-title>Description de l'annonce</mat-card-title>
-        <mat-card-subtitle>Thème du cours: {{annonce.matiere}}</mat-card-subtitle>
-        <mat-card-subtitle></mat-card-subtitle>
-      </mat-card-title-group>
-      <mat-card-content>
-        {{annonce.description}}
-      </mat-card-content>
-      <mat-card-actions class="actionButton">
-          <button mat-button (click)="goBack()">Retour</button>
-          <button mat-button (click)="goToMapPage()">Emplacement du cours</button>
-      </mat-card-actions>
-  </mat-card>
-  <mat-card class="rightCard-mobile" *ngIf="annonce">
     <mat-card-header>
       <mat-card-title>{{annonce.user.prenom}} {{annonce.user.nom}}</mat-card-title>
     </mat-card-header>

@@ -6,9 +6,11 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
 }
 
-.card-mobile {
-    width: 335px;
-    margin-left: 0px;
-    border: 2px solid lightgray;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 335px;
+        margin-left: 0px;
+        border: 2px solid lightgray;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
+    }
 }
