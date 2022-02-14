@@ -14,8 +14,7 @@ export class AnnouncementListComponent implements OnInit {
   public annonces: Announcement[] = [];
   public helps: Help[] = [];
   public isMobile: boolean = false;
-  public displaysMode: string[] = ["web","mobile"];
-
+  
   constructor(private annonceService: AnnouncementService, private helpService: HelpService) { 
     this.annonceService.annonces$.subscribe((annonces) => this.annonces = annonces);
     this.helpService.helps$.subscribe((helps) => this.helps = helps);

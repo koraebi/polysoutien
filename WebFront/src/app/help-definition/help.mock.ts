@@ -24,5 +24,196 @@ export const HELPS: Help[] = [
         matiere: "C#",
         description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
          "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },   {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      }
+      ,   {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      }
+      ,   {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      }
+      ,   {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      }
+      ,   {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
+      },
+      {
+        user: {
+          nom: "Delafeuille",
+          prenom: "Thomas",
+          filiere: "SI3",
+          image: "../../assets/etudiant_help.jpg"
+        },
+        id: 2,
+        matiere: "C#",
+        description: "Bonjour je suis une étudiant en SI3, j'éprouve des difficultés en C et "+
+         "j'ai besoin d'aide pour comprendre ce langage étant donné que nous commencerons des projets sous peu et je me sens pas prête",
       }
 ]

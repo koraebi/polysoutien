@@ -11,13 +11,19 @@ import { ActivatedRoute,  Router, RouterLink} from '@angular/router';
 export class MapComponent implements OnInit {
 
   public annonce?: Announcement;
+  public annonceId: number | undefined;
 
   constructor(private annonceService: AnnouncementService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
-    const annonceId = Number(routeParams.get('annonceId'));
-    this.annonce = this.annonceService.getAnnouncement(annonceId);
+    this.annonceId = Number(routeParams.get('annonceId'));
+    this.annonce = this.annonceService.getAnnouncement(this.annonceId);
+  }
+
+  goBack() {
+    let url = `annonces/${this.annonceId}/detail`;
+    this.router.navigate([url]);
   }
 
 }

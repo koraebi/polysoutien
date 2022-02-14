@@ -9,6 +9,7 @@ import { Help } from '../../help-definition/help';
 })
 export class HelpOverviewComponent implements OnInit {
   @Input() public help?: Help;
+  @Input() style: string = 'web';
    
   constructor(private router: Router) { }
 

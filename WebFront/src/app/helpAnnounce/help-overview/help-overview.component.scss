@@ -1,6 +1,14 @@
 .card {
-    height: 200;
     width: 400px;
     margin: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
+}
+
+.card-mobile {
+    width: 335px;
+    margin-left: 0px;
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);   
 }
