@@ -1,16 +1,31 @@
-<mat-card class="card" *ngIf="annonce">
-    <mat-card-title-group>
-      <mat-card-title>Localisation salle : {{annonce.salle}}</mat-card-title>
-      <mat-card-subtitle>Plan du campus</mat-card-subtitle>
-      <mat-card-subtitle></mat-card-subtitle>
-    </mat-card-title-group>
-    <mat-card-content>
-        <img src='../../assets/plan-polytech/plan-Campus-SophiaTech-O300.PNG'>
-      </mat-card-content>
-    <mat-card-content>
-      <span>Voici le plan du campus. La salle du cours se trouve dans le première étage du batiment indiqué.</span>
+<mat-card class="web" *ngIf="annonce">
+  <mat-card-title-group>
+    <mat-card-title>Localisation salle : {{annonce.salle}}</mat-card-title>
+    <mat-card-subtitle>Plan du campus</mat-card-subtitle>
+    <mat-card-subtitle></mat-card-subtitle>
+  </mat-card-title-group>
+  <mat-card-content>
+      <img src='../../assets/plan-polytech/plan-Campus-SophiaTech-O300.PNG'>
     </mat-card-content>
+  <mat-card-content>
+    <span>Voici le plan du campus. La salle du cours se trouve dans le première étage du batiment indiqué.</span>
+  </mat-card-content>
     <mat-card-actions class="actionButton">
       <button mat-button (click)="goBack()">Retour</button>
   </mat-card-actions>
 </mat-card>
+<div class="mobile" *ngIf="annonce">
+  <mat-card-content>
+    <img class="image" src='https://st.depositphotos.com/1431107/2320/v/600/depositphotos_23201462-stock-illustration-sorry-smiley.jpg'>
+  </mat-card-content>
+  <mat-card-content>
+    <span>
+      Veuillez télécharger notre application mobile pour bénéficier de cette fonctionnalité 
+      ou bien utiliser notre site inernet depuis un ordinateur.
+    </span>
+  </mat-card-content>
+    <mat-card-actions class="actionButton">
+      <button mat-button (click)="goBack()">Retour</button>
+  </mat-card-actions>
+</div>
+ 

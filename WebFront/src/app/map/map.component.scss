@@ -3,3 +3,27 @@ mat-card-content{
     display: flex;
     justify-content: center;
 }
+
+.mobile  {
+    display: none;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .web {
+        display: none;
+    }
+
+    .mobile {
+        display: contents;
+    }
+
+    .actionButton {
+        text-align: center;
+    }
+
+    .image {
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -26,7 +26,7 @@
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .container {
         display: block;
         justify-content: center;
@@ -34,16 +34,25 @@
     }
 
     .leftCard {
-        margin-left: -8%;
-        min-width: 330px;
-        max-width: 380px;
+        margin-left: -25%;
+        width: 95vw;
     }
     
     .rightCard {
         margin-top: 5%;
-        margin-left: -10px;
-        min-width: 380px;
-        max-width: 380px;
+        margin-left: -1%;
+        width: 95vw;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 15%
+    }
+
+    .image {
+        height: 200px;
+        margin-left: 20%;
+        width: 60%;
     }
 
     .actionButton{

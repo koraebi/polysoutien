@@ -14,7 +14,7 @@
       </mat-card-actions>
   </mat-card>
   <mat-card class="rightCard" *ngIf="annonce">
-    <mat-card-header>
+    <mat-card-header class="title">
       <mat-card-title>{{annonce.user.prenom}} {{annonce.user.nom}}</mat-card-title>
     </mat-card-header>
     <img class="image" mat-card-image [src]="annonce.user.image">
