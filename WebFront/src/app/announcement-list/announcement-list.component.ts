@@ -16,18 +16,17 @@ export class AnnouncementListComponent implements OnInit {
 
   public annonces: Announcement[] = [];
   public helps: Help[] = [];
+  myMatiereControl = new FormControl();
+  matiere: string[] = ['Java', 'C', 'C++', 'Python', 'Programmation Fonctionnel'];
+  filteredMatiere!: Observable<string[]>;
+  myFiliereControl = new FormControl();
+  filiere: string[] = ['SI3', 'SI4', 'SI5-IHM', 'M2I-IHM', 'SI5-AL'];
+  filteredFiliere!: Observable<string[]>;
   
   constructor(private annonceService: AnnouncementService, private helpService: HelpService) { 
     this.annonceService.annonces$.subscribe((annonces) => this.annonces = annonces);
     this.helpService.helps$.subscribe((helps) => this.helps = helps);
   }
-
-  myMatiereControl = new FormControl();
-  matiere: string[] = ['Java', 'C', 'C++', 'Python', 'Programmation Fonctionnel'];
-  filteredMatiere!: Observable<string[]>;
-  myFiliereControl = new FormControl();
-  filiere: string[] = ['SI5-IHM', 'M2I-IHM', 'SI5-AL', 'SI4'];
-  filteredFiliere!: Observable<string[]>;
 
   ngOnInit() {
     this.filteredMatiere = this.myMatiereControl.valueChanges.pipe(

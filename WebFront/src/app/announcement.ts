@@ -8,4 +8,5 @@ export interface Announcement {
     salle: String;
     date: String;
     duree: Number;
+    filiere?: String;
 }
