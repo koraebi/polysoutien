@@ -1,18 +1,124 @@
-<mat-tab-group dynamicHeight>
-    <mat-tab label="Proposition de cours">
+<mat-drawer-container class="sidenav-container" autosize>
+    <mat-drawer #drawer class="sidenav" mode="side">
+        <label class="radio-group-label">Choisissez votre matiere</label>
+        <mat-radio-group
+          aria-labelledby="radio-group-label"
+          class="radio-group">
+          <mat-radio-button class="radio-button" *ngFor="let matiere of matiere" [value]="matiere">
+            {{matiere}}
+          </mat-radio-button>
+        </mat-radio-group>
+        
+        <label class="radio-group-label">Choisissez une filière</label>
+        <mat-radio-group
+          aria-labelledby="radio-group-label"
+          class="radio-group">
+          <mat-radio-button class="radio-button" *ngFor="let filiere of filiere" [value]="filiere">
+            {{filiere}}
+          </mat-radio-button>
+        </mat-radio-group>
+    </mat-drawer>
+
+
+<mat-tab-group dynamicHeight [disablePagination]='true' [selectedIndex]="1">
+    <mat-tab disabled>
+        <ng-template mat-tab-label>
+            <button id="filter-button" mat-icon-button (click)="drawer.toggle()">
+                <mat-icon>filter_list</mat-icon>
+            </button>
+        </ng-template>
+    </mat-tab>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span class="page-tab">Proposition de cours</span>
+        </ng-template>
         <mat-card class="container">
             <mat-card-title class="title">Liste des annonces d'aide</mat-card-title>
+            <div class="filter-searchbar">
+                <form>        
+                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Choisissez une Matière</mat-label>
+                    <input type="text"
+                        placeholder="Matière"
+                        aria-label="Matière"
+                        matInput
+                        [formControl]="myMatiereControl"
+                        [matAutocomplete]="autoMatiere">
+                    <mat-autocomplete autoActiveFirstOption #autoMatiere="matAutocomplete">
+                        <mat-option *ngFor="let matiere of filteredMatiere | async" [value]="matiere">
+                            {{matiere}}
+                        </mat-option>
+                    </mat-autocomplete>
+                    </mat-form-field>
+                </form>
+                <form>        
+                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Choisissez une Filière</mat-label>
+                    <input type="text"
+                        placeholder="Filière"
+                        aria-label="Filière"
+                        matInput
+                        [formControl]="myFiliereControl"
+                        [matAutocomplete]="autoFiliere">
+                    <mat-autocomplete autoActiveFirstOption #autoFiliere="matAutocomplete">
+                        <mat-option *ngFor="let filiere of filteredFiliere | async" [value]="filiere">
+                            {{filiere}}
+                        </mat-option>
+                    </mat-autocomplete>
+                    </mat-form-field>
+                </form>
+            </div>
             <mat-card-content class="cards" *ngFor="let annonce of annonces">
                 <app-announcement [annonce]="annonce"></app-announcement>
             </mat-card-content>
         </mat-card>
     </mat-tab>
-    <mat-tab label="Demande de cours">
+
+
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <span class="page-tab">Demande de cours</span>
+        </ng-template>
         <mat-card class="container">
             <mat-card-title class="title">Liste des demandes d'aide</mat-card-title>
+            <div class="filter-searchbar">
+                <form>        
+                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Choisissez une Matière</mat-label>
+                    <input type="text"
+                        placeholder="Matière"
+                        aria-label="Matière"
+                        matInput
+                        [formControl]="myMatiereControl"
+                        [matAutocomplete]="autoMatiere">
+                    <mat-autocomplete autoActiveFirstOption #autoMatiere="matAutocomplete">
+                        <mat-option *ngFor="let matiere of filteredMatiere | async" [value]="matiere">
+                            {{matiere}}
+                        </mat-option>
+                    </mat-autocomplete>
+                    </mat-form-field>
+                </form>
+                <form>        
+                    <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Choisissez une Filière</mat-label>
+                    <input type="text"
+                        placeholder="Filière"
+                        aria-label="Filière"
+                        matInput
+                        [formControl]="myFiliereControl"
+                        [matAutocomplete]="autoFiliere">
+                    <mat-autocomplete autoActiveFirstOption #autoFiliere="matAutocomplete">
+                        <mat-option *ngFor="let filiere of filteredFiliere | async" [value]="filiere">
+                            {{filiere}}
+                        </mat-option>
+                    </mat-autocomplete>
+                    </mat-form-field>
+                </form>
+            </div>
             <mat-card-content class="cards" *ngFor="let help of helps">
                 <app-help-overview [help]="help"></app-help-overview>
             </mat-card-content>
         </mat-card>
     </mat-tab>
 </mat-tab-group>
+</mat-drawer-container>

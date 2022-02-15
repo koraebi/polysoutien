@@ -41,7 +41,21 @@
   overflow-y: hidden;
 }
 
-@media only screen and (max-width: 400px) {
+.filter-searchbar{
+  position : relative;
+  display :flex;
+  justify-content: center;
+}
+
+.example-full-width{
+  margin-right: 1.5vw;
+}
+
+#filter-button{
+  display:none;
+}
+
+@media only screen and (max-width: 412px) {
   .container {  
     height: 100vh;
     width: 100%;
@@ -61,4 +75,40 @@
   .title {
     display: none;
   }
+
+  .filter-searchbar{
+    display : none;
+  }
+
+  #filter-button{
+    display:flex;
+    width:5%;
+  }
+
+  .page-tab{
+    display: inline;
+    font-size: smaller;
+  }
+
+  .sidenav{
+    width:50%;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+
+  #radio-group-label{
+    display:flex;
+    position:relative;
+    margin-right:15px;
+  }
+  
+  .radio-button {
+    margin: 5px;
+  }
+
 }

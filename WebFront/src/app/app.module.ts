@@ -17,6 +17,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatRadioModule} from '@angular/material/radio';
 
 import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
 import { InscriptionComponent } from './compte/inscription/inscription.component';
@@ -56,6 +58,8 @@ import { HelpDetailsComponent } from './helpAnnounce/help-details/help-details.c
     MatAutocompleteModule,
     MatMenuModule,
     MatTabsModule,
+    MatSidenavModule,
+    MatRadioModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
