@@ -19,6 +19,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatRadioModule} from '@angular/material/radio';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+
 
 import { AnnouncementDetailsComponent } from './announcement-details/announcement-details.component';
 import { InscriptionComponent } from './compte/inscription/inscription.component';
@@ -60,6 +62,7 @@ import { HelpDetailsComponent } from './helpAnnounce/help-details/help-details.c
     MatTabsModule,
     MatSidenavModule,
     MatRadioModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

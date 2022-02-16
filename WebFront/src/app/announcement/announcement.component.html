@@ -10,7 +10,7 @@
       {{annonce.description}}
     </mat-card-content>
     <mat-card-actions class="buttons">
-        <button mat-button>S'inscrire</button>
+        <button mat-button (click)="openSnackBar()">S'inscrire</button>
         <button mat-button (click)="goToDetailPage()">Détails</button>
     </mat-card-actions>
 </mat-card>
