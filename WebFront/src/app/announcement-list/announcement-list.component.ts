@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit } from '@angular/core';
 import { Announcement } from '../announcement';
 import { AnnouncementService } from '../announcement.service';
 import { Help } from '../help-definition/help';
@@ -22,10 +22,12 @@ export class AnnouncementListComponent implements OnInit {
   myFiliereControl = new FormControl();
   filiere: string[] = ['SI3', 'SI4', 'SI5-IHM', 'M2I-IHM', 'SI5-AL'];
   filteredFiliere!: Observable<string[]>;
+  filterFiliere: string = '';
+  filterMatiere: string = '';
   
   constructor(private annonceService: AnnouncementService, private helpService: HelpService) { 
-    this.annonceService.annonces$.subscribe((annonces) => this.annonces = annonces);
-    this.helpService.helps$.subscribe((helps) => this.helps = helps);
+    this.initializeAnnoucementsData();
+    this.initializeHelpsData();
   }
 
   ngOnInit() {
@@ -37,18 +39,36 @@ export class AnnouncementListComponent implements OnInit {
       startWith(''),
       map(value => this._filterFiliere(value)),
     );
+    this.myMatiereControl.valueChanges.subscribe((value) => {
+      this.annonces = this.annonces.filter(annonce => annonce.matiere?.includes(value));
+      if(!value) {
+        this.initializeAnnoucementsData();
+      }
+    });
+    this.myFiliereControl.valueChanges.subscribe((value) => {
+      this.annonces = this.annonces.filter(annonce => annonce.filiere?.includes(value));
+      if(!value) {
+        this.initializeAnnoucementsData();
+      }
+    });
+  }
+
+  initializeAnnoucementsData() {
+    this.annonceService.annonces$.subscribe((annonces) => this.annonces = annonces);
+  }
+
+  initializeHelpsData() {
+    this.helpService.helps$.subscribe((helps) => this.helps = helps);
   }
 
   private _filterMatiere(value: string): string[] {
-    const filterValue = value.toLowerCase();
-
-    return this.matiere.filter(matiere => matiere.toLowerCase().includes(filterValue));
+    this.filterMatiere = value.toLowerCase();
+    return this.matiere.filter(matiere => matiere.toLowerCase().includes(this.filterMatiere));
   }
 
   private _filterFiliere(value: string): string[] {
-    const filterValue = value.toLowerCase();
-
-    return this.filiere.filter(filiere => filiere.toLowerCase().includes(filterValue));
+    this.filterMatiere = value.toLowerCase();
+    return this.filiere.filter(filiere => filiere.toLowerCase().includes(this.filterFiliere));
   }
 
 }
