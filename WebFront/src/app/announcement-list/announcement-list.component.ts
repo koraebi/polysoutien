@@ -71,4 +71,45 @@ export class AnnouncementListComponent implements OnInit {
     return this.filiere.filter(filiere => filiere.toLowerCase().includes(this.filterFiliere));
   }
 
+
+  checkStateMatiere(event: { preventDefault: () => void; }, selectedMatiere: { value: null; checked: boolean; }) { //pour pouvoir décocher les radio buttons en reclickant dessus
+    event.preventDefault();
+      if (this.filterMatiere && this.filterMatiere === selectedMatiere.value) {
+        selectedMatiere.checked = false;
+        this.filterMatiere = "";
+        console.log(this.filterMatiere);
+        this.initializeAnnoucementsData();
+      } else {
+        if(selectedMatiere.value!=null){
+        this.filterMatiere = selectedMatiere.value;
+        }else{
+          this.filterMatiere="";
+        }
+        selectedMatiere.checked = true;
+        console.log(this.filterMatiere);
+        this.initializeAnnoucementsData();
+        this.annonces = this.annonces.filter(annonce => annonce.filiere?.includes(this.filterFiliere));
+        this.annonces = this.annonces.filter(annonce => annonce.matiere?.includes(this.filterMatiere));
+      }
+  }
+  checkStateFiliere(event: { preventDefault: () => void; }, selectedFiliere: { value: null; checked: boolean; }) {
+    event.preventDefault();
+      if (this.filterFiliere && this.filterFiliere === selectedFiliere.value) {
+        selectedFiliere.checked = false;
+        this.filterFiliere = "";
+        console.log(this.filterFiliere);
+        this.initializeAnnoucementsData();
+      } else {
+        if(selectedFiliere.value!=null){
+          this.filterFiliere = selectedFiliere.value
+        }else{
+          this.filterFiliere="";
+        }
+        selectedFiliere.checked = true;
+        console.log(this.filterFiliere);
+    }
+    this.initializeAnnoucementsData();
+    this.annonces = this.annonces.filter(annonce => annonce.matiere?.includes(this.filterMatiere));
+    this.annonces = this.annonces.filter(annonce => annonce.filiere?.includes(this.filterFiliere));
+  }
 }

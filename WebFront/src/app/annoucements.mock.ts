@@ -21,7 +21,7 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Filipe",
           prenom: "Gomes",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "../assets/filipe.PNG"
         },
         id: 2,
@@ -37,12 +37,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -53,12 +53,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -69,12 +69,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -85,12 +85,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -101,12 +101,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -117,12 +117,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -133,12 +133,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -149,12 +149,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -165,12 +165,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -181,12 +181,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -197,12 +197,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -213,12 +213,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -229,12 +229,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -245,12 +245,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -261,12 +261,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -277,12 +277,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -293,12 +293,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -309,12 +309,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -325,12 +325,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -341,12 +341,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -357,12 +357,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
@@ -373,12 +373,12 @@ export const ANNOUCEMENTS: Announcement[] = [
         user: {
           nom: "Doe",
           prenom: "John",
-          filiere: "AL-SI5",
+          filiere: "SI5-AL",
           image: "https://thispersondoesnotexist.com/image"
         },
         id: 3,
         matiere: "C++",
-        filiere: "SI5 - AL",
+        filiere: "SI5-AL",
         description: "Bonjour je suis étudiant en SI5 en AL, "+
          "je vous donne rendez-vous le 2 février. Vous pouvez vous inscrire à l'annonce.",
         salle: "O+310",
