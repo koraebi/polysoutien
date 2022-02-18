@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Informatique",
+        "picture": "assets/pictures/informatique.jpg"
+    },
+    {
+        "name": "Mathématiques",
+        "picture": "assets/pictures/mathematiques.jpg"
+    },
+    {
+        "name": "Langues étrangères",
+        "picture": "assets/pictures/langues_etrangeres.jpg"
+    },
+    {
+        "name": "Physique",
+        "picture": "assets/pictures/physique.jpg"
+    },
+    {
+        "name": "Chimie",
+        "picture": "assets/pictures/chimie.jpg"
+    },
+    {
+        "name": "Economie",
+        "picture": "assets/pictures/economie.jpg"
+    },
+    {
+        "name": "Geographie",
+        "picture": "assets/pictures/geographie.jpg"
+    }
+]
