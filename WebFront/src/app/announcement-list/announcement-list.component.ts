@@ -77,7 +77,6 @@ export class AnnouncementListComponent implements OnInit {
       if (this.filterMatiere && this.filterMatiere === selectedMatiere.value) {
         selectedMatiere.checked = false;
         this.filterMatiere = "";
-        console.log(this.filterMatiere);
         this.initializeAnnoucementsData();
       } else {
         if(selectedMatiere.value!=null){
@@ -86,7 +85,6 @@ export class AnnouncementListComponent implements OnInit {
           this.filterMatiere="";
         }
         selectedMatiere.checked = true;
-        console.log(this.filterMatiere);
         this.initializeAnnoucementsData();
         this.annonces = this.annonces.filter(annonce => annonce.filiere?.includes(this.filterFiliere));
         this.annonces = this.annonces.filter(annonce => annonce.matiere?.includes(this.filterMatiere));
@@ -97,7 +95,6 @@ export class AnnouncementListComponent implements OnInit {
       if (this.filterFiliere && this.filterFiliere === selectedFiliere.value) {
         selectedFiliere.checked = false;
         this.filterFiliere = "";
-        console.log(this.filterFiliere);
         this.initializeAnnoucementsData();
       } else {
         if(selectedFiliere.value!=null){
@@ -106,7 +103,6 @@ export class AnnouncementListComponent implements OnInit {
           this.filterFiliere="";
         }
         selectedFiliere.checked = true;
-        console.log(this.filterFiliere);
     }
     this.initializeAnnoucementsData();
     this.annonces = this.annonces.filter(annonce => annonce.matiere?.includes(this.filterMatiere));
