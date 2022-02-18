@@ -1,0 +1,167 @@
+[
+    {
+        "name": "Probabilités",
+        "level": "L3",
+        "tags": ["maths", "calculs"],
+        "category": "Mathématiques",
+        "author": "Matthias Dupont",
+        "rate": 4.5,
+        "rates": 10.0,
+        "picture": "assets/pictures/matthias.jpg",
+        "availabilities":
+            [
+                {
+                    "time": "15:30",
+                    "day": "10/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "15/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "20/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "25/02/2022",
+                    "places": 5
+                }
+            ]
+    },
+    {
+        "name": "Génie Logiciel",
+        "level": "L1, LP",
+        "tags": ["scrum", "agile", "git"],
+        "category": "Informatique",
+        "author": "Thomas Deblieux",
+        "rate": 3.6,
+        "rates": 10.0,
+        "picture": "assets/pictures/thomas.jpg",
+        "availabilities":
+            [
+                {
+                    "time": "15:30",
+                    "day": "10/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "15/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "20/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "25/02/2022",
+                    "places": 5
+                }
+            ]
+    },
+    {
+        "name": "Théorie des graphes",
+        "level": "M1",
+        "tags": ["graphes", "logique", "maths"],
+        "category": "Informatique",
+        "author": "Jean Cotaud",
+        "rate": 5,
+        "rates": 10.0,
+        "picture": "assets/pictures/jean.jpg",
+        "availabilities":
+            [
+                {
+                    "time": "15:30",
+                    "day": "10/02/2022",
+                    "places": 1
+                },
+                {
+                    "time": "15:30",
+                    "day": "15/02/2022",
+                    "places": 1
+                },
+                {
+                    "time": "15:30",
+                    "day": "20/02/2022",
+                    "places": 1
+                },
+                {
+                    "time": "15:30",
+                    "day": "25/02/2022",
+                    "places": 1
+                }
+            ]
+    },
+    {
+        "name": "Expression orale",
+        "level": "M1",
+        "tags": ["anglais", "toeic", "lea"],
+        "category": "Langues étrangères",
+        "author": "Pauline Macouin",
+        "rate": 3.6,
+        "rates": 10.0,
+        "picture": "assets/pictures/pauline.jpg",
+        "availabilities":
+            [
+                {
+                    "time": "15:30",
+                    "day": "10/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "15/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "20/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "25/02/2022",
+                    "places": 5
+                }
+            ]
+    },
+    {
+        "name": "Expression écrite",
+        "level": "L2",
+        "tags": ["chinois", "oral", "écrit", "llcer"],
+        "author": "Dan Chang",
+        "category": "Langues étrangères",
+        "rate": 2.3,
+        "rates": 10.0,
+        "picture": "assets/pictures/dan.jpg",
+        "availabilities":
+            [
+                {
+                    "time": "15:30",
+                    "day": "10/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "15/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "20/02/2022",
+                    "places": 5
+                },
+                {
+                    "time": "15:30",
+                    "day": "25/02/2022",
+                    "places": 5
+                }
+            ]
+    }
+]
