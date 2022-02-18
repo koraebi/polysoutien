@@ -1,0 +1,61 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.container {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.leftCard {
+    top : 5vh;
+    left: 22vw;
+    width: 90vw;
+}
+
+.rightCard {
+    width: 50%;
+    margin-left: 35%;
+    top: 5vh;
+}
+
+.image {
+    height: 200px;
+}
+
+.actionButton{
+    margin-top: 55%;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .container {
+        display: block;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .leftCard {
+        margin-left: -25%;
+        width: 95vw;
+    }
+    
+    .rightCard {
+        margin-top: 5%;
+        margin-left: -1%;
+        width: 95vw;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 15%
+    }
+
+    .image {
+        height: 200px;
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    .actionButton{
+        margin-top: 1%;
+    }
+}

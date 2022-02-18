@@ -1,16 +1,16 @@
 <mat-card class="card" *ngIf="annonce">
     <mat-card-title-group>
       <mat-card-title>{{annonce.user.prenom}} {{annonce.user.nom}}</mat-card-title>
-      <mat-card-subtitle>Thème du cour: {{annonce.matiere}}</mat-card-subtitle>
+      <mat-card-subtitle>Thème du cours: {{annonce.matiere}}</mat-card-subtitle>
+      <mat-card-subtitle class="subtitle">Cours destiné au : {{annonce.filiere}}</mat-card-subtitle>      
       <mat-card-subtitle></mat-card-subtitle>
       <img mat-card-sm-image [src]="annonce.user.image">
     </mat-card-title-group>
     <mat-card-content>
       {{annonce.description}}
     </mat-card-content>
-    <mat-card-actions>
-        <button mat-button>S'inscrire</button>
+    <mat-card-actions class="buttons">
+        <button mat-button (click)="openSnackBar()">S'inscrire</button>
         <button mat-button (click)="goToDetailPage()">Détails</button>
     </mat-card-actions>
 </mat-card>
-  

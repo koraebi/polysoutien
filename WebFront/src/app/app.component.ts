@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent{
   title = 'WebFront';
 
-  ngOnInit(): void {
-		// onInit code.
-	}
+  constructor() { }
+  
+  ngOnInit() {
+  }
 
 }
